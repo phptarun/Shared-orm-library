@@ -1,0 +1,23 @@
+{
+  "name": "shared-orm-library",
+  "version": "1.0.0",
+  "description": "-> (All entities files, migration, and database connection). There are no API endpoints defined in this repository.",
+  "main": "db.js",
+  "scripts": {
+    "postinstall": "node ./migrations/script.js & exit",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phptarun/Shared-orm-library.git"
+  },
+  "author": "Tarun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phptarun/Shared-orm-library/issues"
+  },
+  "homepage": "https://github.com/phptarun/Shared-orm-library#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
