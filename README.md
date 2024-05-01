@@ -1,8 +1,6 @@
 # Shared-orm-library
 All entities files, migration, and database connection
 
-# Installation
-
  ## Prerequisite
 
    - NodeJS - Node v18.17.1
