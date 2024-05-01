@@ -3,7 +3,7 @@ All entities files, migration, and database connection
 
 # Installation
 
- ## Make sure following versions are installed
+ ## Prerequisite
 
    - NodeJS - Node v18.17.1
 
